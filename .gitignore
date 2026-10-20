@@ -1,0 +1,43 @@
+# Simulation outputs
+sim/vcs/simv
+sim/vcs/*.log
+sim/vcs/cov.vdb/
+sim/vcs/coverage_report/
+sim/vcs/csrc/
+sim/vcs/simv.daidir/
+sim/vcs/regression/
+sim/iverilog/simv
+sim/iverilog/*.log
+
+# VCS artifacts
+ucli.key
+vc_hdrs.h
+novas.rc
+*.fsdb
+*.vcd
+*.vpd
+*.shm/
+
+# Compiled C binaries
+iss/iss_test
+iss/iss_test.exe
+iss/rv32im_iss.exe
+
+# ibex RTL (too large; clone separately per README)
+rtl/ibex_clean/
+rtl/ibex_buggy/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
